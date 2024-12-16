@@ -1,0 +1,217 @@
+/*
+.cardStyle{
+align-items: center;
+width: 80px;
+height: 80px;
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.timeStyle{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.labelStyle{
+    font-size: 16px;
+    color: #555;
+    font-weight: 400;
+}
+.timer{
+    display: flex;
+    background-color: #ebebeb;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.timer h2{
+font-size: 3.5rem;
+}
+.timer p{
+    font-size: 1rem;
+}
+.texts{
+    text-align: center;
+}
+.glasses{
+    width: 570px;
+    height: 600px;
+    margin-top: 20px;
+    display: flex;
+}
+.counter {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-bottom: 20px;
+    flex-wrap: wrap; 
+  }
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .cardStyle {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .timeStyle {
+      font-size: 20px;
+    }
+  
+    .labelStyle {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .timer h2 {
+      font-size: 2rem; 
+    }
+  
+    .timer p {
+      font-size: 0.9rem;
+    }
+  
+    .glasses {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  */
+
+
+  .cardStyle {
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .timeStyle {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .labelStyle {
+    font-size: 16px;
+    color: #555;
+    font-weight: 400;
+  }
+  
+  .timer {
+    display: flex;
+    background-color: #ebebeb;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 20px; 
+    gap: 20px;
+  }
+  
+  .timer h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .timer p {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .texts {
+    text-align: center;
+    flex: 1;  
+    min-width: 250px 
+  }
+  
+  .glasses {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .cardStyle {
+      width: 60px; 
+      height: 60px;
+    }
+  
+    .timeStyle {
+      font-size: 18px;  
+    }
+  
+    .labelStyle {
+      font-size: 12px;
+    }
+  
+    .timer h2 {
+      font-size: 2rem; 
+    }
+  
+    .timer p {
+      font-size: 0.9rem;
+    }
+  
+    .texts {
+      min-width: 100%; 
+    }
+
+    .glasses img {
+        max-width: 80%; 
+        height: auto;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    .cardStyle {
+      width: 50px; 
+      height: 50px;
+    }
+  
+    .timeStyle {
+      font-size: 16px;
+    }
+  
+    .labelStyle {
+      font-size: 10px;
+    }
+  
+    .timer h2 {
+      font-size: 1.8rem;
+    }
+  
+    .timer p {
+      font-size: 0.8rem;
+    }
+
+    .glasses img {
+        max-width: 60%; 
+        height: auto;
+      }
+  }
+  
